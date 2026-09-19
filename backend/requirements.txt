@@ -1,0 +1,15 @@
+# Core Web Framework & Production WSGI Server
+Flask>=3.0.0,<3.1.0
+Werkzeug>=3.0.0,<3.1.0
+gunicorn>=22.0.0
+
+# Database & ORM
+Flask-SQLAlchemy>=3.1.0,<3.2.0
+SQLAlchemy>=2.0.0,<2.1.0
+
+# CORS & Environment Configuration
+Flask-Cors>=4.0.0,<5.0.0
+python-dotenv>=1.0.0,<2.0.0
+
+# External API Integrations (SMS Dispatch & Notification)
+twilio>=9.0.0,<10.0.0
