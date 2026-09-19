@@ -1,0 +1,17 @@
+﻿# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Databases & local sqlite
+*.db
+*.db.bak
+*.sqlite
+*.sqlite3
+instance/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyc
+.pytest_cache/
