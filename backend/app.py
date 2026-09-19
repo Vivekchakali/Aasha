@@ -99,8 +99,10 @@ def create_app():
 
     return app
 
+# Expose WSGI application callable for production servers (e.g., Gunicorn `app:app`)
+app = create_app()
+
 if __name__ == '__main__':
-    app = create_app()
     port = int(os.environ.get('PORT', 5000))
     print(f"==================================================")
     print(f"  ASHA OneCapture Backend Server running on port {port}")
